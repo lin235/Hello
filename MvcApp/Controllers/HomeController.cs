@@ -28,9 +28,9 @@ namespace MvcApp.Controllers
         {
             return View();
         }
-        public string  Test1()
+        public ActionResult Test2()
         {
-            return "name";
+            return View();
         }
     }
 }
