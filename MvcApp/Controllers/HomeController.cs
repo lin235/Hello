@@ -28,5 +28,9 @@ namespace MvcApp.Controllers
         {
             return View();
         }
+        public string  Test1()
+        {
+            return "name";
+        }
     }
 }
